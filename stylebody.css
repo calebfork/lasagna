@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+.bodyclass{
+  margin: 0;
+  background-image: url("Images/bodyimage.jpg");
+}
+.aboutclass{
+  margin: 0;
+  background-image: url("Images/aboutback.jpg");
+}
+.nameheader{
+  text-align:left;
+  padding:32px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  color:DarkGrey;
+}
+.header{
+  text-align: center;
+  padding: 32px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.bio{
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color:DarkGrey;
+}
+.logo {
+  height:10px;
+  width:10px;
+}
+.backtotop{
+  list-style-type: none;
+	position:absolute;
+	top: 998%;
+	left: 45%;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+  background-color: white;
+}
+figcaption{
+  background-color: white;
+}
+.backtotop li a {
+  color: black;
+  text-decoration: none;
+}
+
+.backtotop li a:visited{
+  color:black;
+  text-decoration: none;
+
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  text-align: center;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.productsbut {
+  list-style-type: none;
+	position:absolute;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.productsbut li a {
+  color: black;
+  text-decoration: none;
+}
+.aboutheader{
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color:DarkGrey;
+}
+.productsbut li a:visited{
+  color:black;
+  text-decoration: none;
+
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;

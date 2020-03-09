@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	padding: 30px;
+}
+
+#righteye {
+	animation: righteye1 1s  ease-in-out infinite alternate;
+	transform-origin:center;
+}
+	
+
+@keyframes righteye1{
+	from {
+		transform: rotateX(0deg);
+	}
+	to {
+		transform: rotateX(30deg);
+	}
+}
+
+#lefteye {
+	animation: lefteye1 1s ease-in-out infinite alternate;
+	transform-origin:center;
+}
+	
+
+@keyframes lefteye1{
+	from {
+		transform: rotateX(0deg);
+	}
+	to {
+		transform: rotateX(30deg);
+	}
+}
+
+
+#path4798 {
+	animation: lips 1s ease;
+	transform: scale;
+}
+
+@keyframes lips{
+	from {height: 5px width: 10px}
+	to {height: 10px width: 20px}
+}

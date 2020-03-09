@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  background-image: url("Images/frontpage.jpg");
+}
+
+.banner1{
+	font-size: 50px;
+	position: absolute;
+  top: 15%;
+	left: 55%;
+	text-align: center;
+  color: White;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner2{
+  font-size: 30px;
+  position: absolute;
+  top: 28%;
+  left: 65%;
+  text-align: center;
+  color: LightGrey;
+  font-family: 'Roboto', sans-serif;
+}
+
+.productsbut {
+  list-style-type: none;
+	position:absolute;
+	top:60%;
+	left: 45%;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.productsbut li a {
+  color: white;
+  text-decoration: none;
+}
+
+.productsbut li a:visited{
+  color:white;
+  text-decoration: none;
+
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
